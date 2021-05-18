@@ -39,7 +39,7 @@ export const NavBar = () => {
           <a className="nav-link" href="#"><input style={{width: "700px", height: "50px"}} className="border border-dark border-2 rounded" type="text" name="" id="" placeholder="Find Cars, Mobile Phones and more..."/></a>
         </li>
         <li className="nav-item">
-          <a className="nav-link fs-3" href="#"><BsSearch/></a>
+          <a className="nav-link fs-3" href="#"><BsSearch/>&nbsp;&nbsp;</a>
         </li>
         {/* <li style={{width: "700px", height: "50px", backgroundColor: "white"}} className="nav-item dropdown border border-dark border-2 fs-5 rounded">
           <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,10 +47,11 @@ export const NavBar = () => {
           </a>
         </li> */}
         <li className="nav-item">
-          <a className="nav-link" href="#">login</a>
+          <a style={{fontWeight: "bold", textDecoration: "underline"}} className="nav-link fs-5 mt-2" href="#">login</a>
         </li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
         <li className="nav-item">
-          <a className="nav-link" href="#">sell</a>
+          <a style={{fontWeight: "bold", backgroundColor: "white", width: "100px", textAlign: "center"}} className="nav-link fs-4 border rounded-pill border-primary border-4" href="#">+sell</a>
         </li>
       </ul>
     </div>

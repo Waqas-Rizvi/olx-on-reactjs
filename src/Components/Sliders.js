@@ -1,9 +1,10 @@
 import React from 'react'
+import Slider from '../Assets/Slider.JPG'
 
 export const Sliders = () => {
     return (
-        <div>
-            <h1>This is Sliders</h1>
-        </div>
+        <>
+            <img src={Slider} alt="" style={{marginTop: "-15px"}}/>
+        </>
     )
 }

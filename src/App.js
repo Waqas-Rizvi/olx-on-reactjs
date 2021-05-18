@@ -5,6 +5,7 @@ import { Sliders } from "./Components/Sliders";
 import { Cards } from "./Components/Cards";
 import { Footer } from "./Components/Footer";
 import { Footer2 } from "./Components/Footer2";
+import { Advertise } from "./Components/Advertise";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Headings/>
       <Sliders/>
       <Cards/>
+      <Advertise/>
       <Footer/>
       <Footer2/>
     </>

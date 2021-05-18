@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.heads li{
+  display: inline-block;
+  margin: 10px;
+}
+
+.heads li a{
+  text-decoration: none;
+  color: #002f34;
+  font-size: 14px;
+}
+
+.heads li a:hover{
+  color: #00a49f;;
+}
+
+.head1{
+  color: black;
+  font-weight: bold;
+}
+
+.car{
+  background-color: rgb(243, 243, 243);
+  padding: 20px;
+}
+
+.view{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -25px;
+  font-size: 16px;
+}
+
+.view1 a{
+  color: black;
+}
+
+.view1 a:hover{
+  text-decoration: none;
+}
+
+.cards{
+  margin: 10px;
+}
